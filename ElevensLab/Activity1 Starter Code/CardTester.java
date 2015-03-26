@@ -8,6 +8,11 @@ public class CardTester {
 	 *	@param args is not used.
 	 */
 	public static void main(String[] args) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+		Card card1 = new Card("1", "Hearts", 3);
+		Card card2 = new Card("2", "Clubs", 4);
+		Card card3 = new Card("1", "Hearts", 3);
+		
+		System.out.println(card1.toString());
+		
 	}
 }
